@@ -30,3 +30,15 @@ function numbers(x){
     numbers(x)
 }
 numbers(1)
+
+// 
+function printOneToN(n) {
+    if (n === 0) return;   // base case
+
+     // recursive call
+    console.log(n);
+    printOneToN(n - 1);// print after recursion
+}
+
+// Example
+printOneToN(5);
