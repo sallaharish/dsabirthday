@@ -17,3 +17,16 @@ function numbers(n){
     numbers(n)
 }
 numbers(10)
+
+// inorder to 1 to n
+
+function numbers(x){
+    let n=10
+    if(x>n){
+        return 
+    }
+    console.log(x)
+    x+=1
+    numbers(x)
+}
+numbers(1)
